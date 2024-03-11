@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #007bff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+h1 {
+    color: #007bff; /* Blue color */
+    text-align: center;
+}
+
+/* Table styles */
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px auto;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+th {
+    background-color: #007bff; /* Blue color */
+    color: white;
+    text-align: left;
+}
+
+/* Skill level styles */
+.expert {
+    background-color: #28a745; /* Green color */
+    color: white;
+    font-weight: bold;
+}
+
+.basic {
+    background-color: #ffc107; /* Yellow color */
+    font-weight: bold;
+}
+
+.advance {
+    background-color: #17a2b8; /* Cyan color */
+    color: white;
+    font-weight: bold;
+}
+
+.native {
+    background-color: #dc3545; /* Red color */
+    color: white;
+    font-weight: bold;
+}
